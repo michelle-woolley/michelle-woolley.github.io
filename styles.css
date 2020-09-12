@@ -51,16 +51,19 @@ h1 {
 #myIdealJob {
   min-height: 100%;
   background-color: rgb(118, 215, 196);
+  padding-bottom: 20px;
 }
 
 #personalProfile {
   min-height: 100%;
   background-color: rgb(11, 126, 100);
+  padding-bottom: 20px;
 }
 
 #report {
   min-height: 100%;
   background-color: rgb(140, 184, 156);
+  padding-bottom: 20px;
 }
 
 #references {
