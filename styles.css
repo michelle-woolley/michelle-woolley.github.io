@@ -25,7 +25,8 @@ h1 {
   justify-content: center;
   align-items: center;
   min-height: 100%;
-  background-color: rgb(11, 126, 100);
+  background-color: #EEE2DC;
+  color: #AC3B61;
   text-align: center;
 }
 
@@ -46,35 +47,37 @@ h1 {
 
 #aboutMe {
   min-height: 100%;
-  background-color: rgb(140, 184, 156);
+  background-color: #123C69;
+  color: #BAB2B5;
 }
 
 #interestInIT {
   min-height: 100%;
-  background-color: rgb(0, 90, 74);
+  background-color: #BAB2B5;
 }
 
 #myIdealJob {
   min-height: 100%;
-  background-color: rgb(118, 215, 196);
+  background-color: #EEE2DC;
   padding-bottom: 20px;
 }
 
 #personalProfile {
   min-height: 100%;
-  background-color: rgb(11, 126, 100);
+  background-color: #123C69;
+  color: #BAB2B5;
   padding-bottom: 20px;
 }
 
 #report {
   min-height: 100%;
-  background-color: rgb(140, 184, 156);
+  background-color: #BAB2B5;
   padding-bottom: 20px;
 }
 
 #references {
   min-height: 100%;
-  background-color: rgb(63, 107, 104);
+  background-color: #EEE2DC;
 }
 
 .centerImages{
@@ -87,7 +90,15 @@ h1 {
   margin-right: auto;
   height: 420px;
   width: 420px;
-  border: 5px solid rgb(0, 77, 64);
+  border: 5px solid #BAB2B5;
+}
+
+#idealJobHeading {
+  color: #AC3B61;
+}
+
+#referencesHeading {
+  color: #AC3B61;
 }
 
 #jobContainer {
@@ -105,7 +116,7 @@ h1 {
 #jobImage {
   height: 820px;
   width: 380px;
-  border: 5px solid rgb(0, 77, 64);
+  border: 5px solid #BAB2B5;
 }
 
 #jobImageDisplay {
@@ -128,7 +139,7 @@ h1 {
 }
 
 a:link {
-  color: blue;
+  color: #AC3B61;
 }
 
 a:visited {
@@ -136,5 +147,5 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(62, 138, 91);
+  color: #123C69;
 }
