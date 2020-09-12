@@ -55,7 +55,7 @@ h1 {
 
 #personalProfile {
   min-height: 100%;
-  background-color: rgb(63, 107, 104);
+  background-color: rgb(11, 126, 100);
 }
 
 #report {
@@ -65,7 +65,7 @@ h1 {
 
 #references {
   min-height: 100%;
-  background-color: rgb(11, 126, 100);
+  background-color: rgb(63, 107, 104);
 }
 
 .headlines {
@@ -100,6 +100,20 @@ h1 {
   border: 5px solid rgb(0, 77, 64);
 }
 
+#jobImageDispaly {
+
+}
+
+#jobTextDisplay {
+
+}
+
+#topLink {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
 a:link {
   color: blue;
 }
@@ -109,5 +123,5 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(0, 77, 64);
+  color: rgb(62, 138, 91);
 }
