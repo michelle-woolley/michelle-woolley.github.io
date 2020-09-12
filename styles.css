@@ -9,7 +9,7 @@ body {
 }
 
 p {
- margin: 0px 500px;
+ margin: 0 25%;
  padding: 15px 0px;
  font-size: 18px;
  text-align: left;
@@ -88,10 +88,16 @@ h1 {
   border: 5px solid rgb(0, 77, 64);
 }
 
+#jobContainer {
+  display: flex;
+  justify-content: center;
+}
+
 #jobLink {
   text-align: center;
   display: block;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
 #jobImage {
@@ -100,12 +106,17 @@ h1 {
   border: 5px solid rgb(0, 77, 64);
 }
 
-#jobImageDispaly {
-
+#jobImageDisplay {
+ min-width: 380px;
 }
 
 #jobTextDisplay {
+  max-width: 35%;
+}
 
+#jobTextDisplay > p {
+  margin: 0;
+  padding-left: 20px;
 }
 
 #topLink {
